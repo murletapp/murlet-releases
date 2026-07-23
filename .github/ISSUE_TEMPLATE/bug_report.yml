@@ -1,0 +1,60 @@
+name: Bug report
+description: Something isn't working in Guardigan
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: input
+    id: guardigan-version
+    attributes:
+      label: Guardigan version
+      description: From the Guardigan menu → About Guardigan.
+      placeholder: "2026.7.6"
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: Mac and macOS version
+      placeholder: "M1 Mac mini, macOS 15.5"
+    validations:
+      required: true
+
+  - type: input
+    id: camera
+    attributes:
+      label: Camera make and model
+      description: If the problem involves a camera.
+      placeholder: "Reolink RLC-810A"
+
+  - type: input
+    id: rtsp-url
+    attributes:
+      label: RTSP URL
+      description: >-
+        If the problem is with connecting to or streaming from a camera.
+        Remove your username and password. Mask the host too unless it's a
+        local address like 192.168.x.x.
+      placeholder: "rtsp://192.168.1.50:554/h264Preview_01_main"
+
+  - type: markdown
+    attributes:
+      value: >-
+        **Support bundles:** don't attach these to public issues, since they
+        contain logs about activity in your home. Instead save one
+        (Guardigan → Contact Support… → Save Support Bundle…) and email it
+        to support@guardigan.app with a link to this issue.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: >-
+        Don't include camera addresses or anything else private.
