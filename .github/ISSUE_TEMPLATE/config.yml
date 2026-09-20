@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Question or something else
+  - name: Question
+    url: https://github.com/murletapp/murlet-releases/discussions/categories/q-a
+    about: Need help with setup or a camera? Ask in Discussions.
+  - name: Feature request
+    url: https://github.com/murletapp/murlet-releases/discussions/categories/ideas
+    about: Suggest or vote on ideas in Discussions.
+  - name: Anything else
     url: https://murlet.com
-    about: Not a bug? Email support@murlet.com instead.
+    about: Email support@murlet.com instead.
