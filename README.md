@@ -13,7 +13,7 @@ More at [murlet.com](https://murlet.com).
 
 ## Bugs and support
 
-Something broken? [Open a bug report](https://github.com/murletapp/murlet-releases/issues/new/choose).
+Something broken? [Open a bug report](https://github.com/murletapp/murlet-releases/issues/new?template=bug_report.yml).
 
 Question or idea? [Start a discussion](https://github.com/murletapp/murlet-releases/discussions).
 
